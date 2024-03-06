@@ -42,7 +42,7 @@ El equipo detrás del proyecto educativo de la consultora XYZ está conformado p
 
 1. **Naida Judith Molina Alvarez**
    - Rol: Scrum Master
-   - ![Imagen](imageMembers/naida.jpg)
+   - <img src="imageMembers/naida.jpg" width="200">
 
 2. **Gilberto Kevin Vazquez Rivera**
    - Rol: Desarrollador Frontend
