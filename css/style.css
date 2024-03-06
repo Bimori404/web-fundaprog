@@ -12,8 +12,18 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  /* --------------------------- */
   --primary: #007bff;
   --secondary: #6c757d;
+
+  /* Paleta de colores */
+  --c1: #54E8E3;
+  --c2: #54BEE8;
+  --c3: #54E8B2;
+  --c4: #5460E8;
+  --c5: #75C9EB;
+
+  /* --------------------------- */
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
