@@ -12038,3 +12038,33 @@ a[data-toggle="collapse"] {
 .subscribe-form .form-control {
   background: #3b4ec6;
 }
+
+/*Ajuste de tamaño de de imagens de comoce a tu equipo*/
+.team-member img {
+  width: 200px; /* Ajusta el tamaño según tus preferencias */
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bibliografia-section {
+  flex: 1; /* Abarcar todo el espacio restante */
+
+  padding: 20px;
+  border: 1px solid #ced4da; /* Borde */
+  border-radius: 5px;
+  margin-right: 10px; /* Espacio entre las secciones */
+}
+
+.descarga-button {
+  background-color: #f8f9fa; /* Color de fondo */
+  padding: 20px;
+  border: 1px solid #ced4da; /* Borde */
+  border-radius: 5px;
+}
+
+.descarga-button img {
+  cursor: pointer;
+}
