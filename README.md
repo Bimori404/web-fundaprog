@@ -46,24 +46,24 @@ El equipo detrás del proyecto educativo de la consultora XYZ está conformado p
 
 2. **Gilberto Kevin Vazquez Rivera**
    - Rol: Desarrollador Frontend
-   - ![Imagen](imageMembers/gilberto.jpg)
+   - <img src="imageMembers/gilberto.jpg" width="200">
 
 3. **Jose Manuel Mejia Velazquez**
    - Rol: Diseñador UX/UI
-   - ![Imagen](imageMembers/manuel.jpg)
+   - <img src="imageMembers/manuel.jpg" width="200">
 
 4. **Javier Alviso Rivera**
    - Rol: Documentador
-   - ![Imagen](imageMembers/javier.jpg)
+   - <img src="imageMembers/javier.jpg" width="200">
 
 5. **Norberto Serna Rivera**
    - Rol: Documentador
-   - ![Imagen](imageMembers/norberto.jpg)
+   - <img src="imageMembers/norberto.jpg" width="200">
 
 6. **Juan Samuel Perez Gonzalez**
    - Rol: Desarrollador Frontend, Diseñador UX/UI
-   - ![Imagen](imageMembers/samuel.jpg)
+   - <img src="imageMembers/samuel.jpg" width="200">
 
 7. **Alejandro Del Castillo Díaz**
    - Rol: Por determinar
-   - ![Imagen](imageMembers/alejandro.jpg)
+   - <img src="imageMembers/alejandro.jpg" width="200">
