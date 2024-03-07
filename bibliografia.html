@@ -38,14 +38,15 @@
                     <li>
                         <a href="./multimedia.html">Multimedia</a>
                     </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
+
+                    <li class="active">
+                        <a href="./bibliografia.html">Bibliografia</a>
                     </li>
                     <li>
                         <a href="./conoce_equipo.html">Conoce al equipo</a>
                     </li>
-                    <li class="active">
-                        <a href="./bibliografia.html">Bibliografia</a>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -58,105 +59,44 @@
             <hr class="border-bottom mb-4">
             <div class="contact-section">
                 <div class="bibliografia-section">
+
                     <div class="contact-section">
                         <div class="bibliografia-section">
-                            <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
+                            <p class="btn btn-link" id="libroJava">Como Programar en Java: Septima Edicion</p>
                         </div>
 
                         <div class="descarga-button">
-
-                            <a href="ruta/al/archivo.pdf" download>
+                            <a id="descargarPDF" href="docs/como_programar_en_java-septima_edicion.pdf" download>
                                 <img src="imag/descargar-pdf.png" alt="Descargar PDF"
                                     style="width: 50px; height: 50px;">
                             </a>
                         </div>
                     </div>
-                    <div class="contact-section">
+
+                    <!-- <div class="contact-section">
                         <div class="bibliografia-section">
-                            <!-- Contenido de la bibliografía -->
                             <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
                         </div>
 
                         <div class="descarga-button">
-
                             <a href="ruta/al/archivo.pdf" download>
                                 <img src="imag/descargar-pdf.png" alt="Descargar PDF"
                                     style="width: 50px; height: 50px;">
                             </a>
                         </div>
-                    </div>
-                    <div class="contact-section">
-                        <div class="bibliografia-section">
-                            <!-- Contenido de la bibliografía -->
-                            <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
-                        </div>
+                    </div> -->
 
-                        <div class="descarga-button">
-
-                            <a href="ruta/al/archivo.pdf" download>
-                                <img src="imag/descargar-pdf.png" alt="Descargar PDF"
-                                    style="width: 50px; height: 50px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contact-section">
-                        <div class="bibliografia-section">
-                            <!-- Contenido de la bibliografía -->
-                            <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
-                        </div>
-
-                        <div class="descarga-button">
-
-                            <a href="ruta/al/archivo.pdf" download>
-                                <img src="imag/descargar-pdf.png" alt="Descargar PDF"
-                                    style="width: 50px; height: 50px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contact-section">
-                        <div class="bibliografia-section">
-                            <!-- Contenido de la bibliografía -->
-                            <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
-                        </div>
-
-                        <div class="descarga-button">
-
-                            <a href="ruta/al/archivo.pdf" download>
-                                <img src="imag/descargar-pdf.png" alt="Descargar PDF"
-                                    style="width: 50px; height: 50px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contact-section">
-                        <div class="bibliografia-section">
-                            <!-- Contenido de la bibliografía -->
-                            <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
-                        </div>
-
-                        <div class="descarga-button">
-
-                            <a href="ruta/al/archivo.pdf" download>
-                                <img src="imag/descargar-pdf.png" alt="Descargar PDF"
-                                    style="width: 50px; height: 50px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contact-section">
-                        <div class="bibliografia-section">
-                            <!-- Contenido de la bibliografía -->
-                            <p>Aquí puedes descargar la bibliografía en formato PDF:</p>
-                        </div>
-
-                        <div class="descarga-button">
-
-                            <a href="ruta/al/archivo.pdf" download>
-                                <img src="imag/descargar-pdf.png" alt="Descargar PDF"
-                                    style="width: 50px; height: 50px;">
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
+
+            <script>
+                var parrafoJava = document.getElementById('libroJava');
+                var enlaceDescarga = document.getElementById('descargarPDF');
+
+                parrafoJava.addEventListener('click', function () {
+                    enlaceDescarga.click();
+                });
+            </script>
 
             <script src="../js/jquery.min.js"></script>
             <script src="../js/bootstrap.min.js"></script>
