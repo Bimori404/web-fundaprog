@@ -11801,6 +11801,7 @@ h5,
   min-width: 270px;
   max-width: 270px;
   background: #3445b4;
+  /* background: #548FE8; */
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -11846,8 +11847,10 @@ h5,
 #sidebar ul li a {
   padding: 10px 0;
   display: block;
+  /* color: rgba(255, 255, 255, 0.6); */
+  /* color: #050606; */
   color: rgba(255, 255, 255, 0.6);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
 }
 
 #sidebar ul li a span {
@@ -11856,10 +11859,12 @@ h5,
 
 #sidebar ul li a:hover {
   color: #fff;
+  font-weight: bold;
 }
 
 #sidebar ul li.active>a {
   background: transparent;
+  font-weight: bold;
   color: #fff;
 }
 
