@@ -11950,7 +11950,7 @@ h5,
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #1E488F;
+  background: #1E488F; /* color btn collapse */
   border-radius: 10px;
 }
 
