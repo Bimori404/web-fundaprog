@@ -315,10 +315,10 @@ input[type="month"] {
   -webkit-appearance: listbox;
 }
 
-textarea {
+/* textarea {
   overflow: auto;
   resize: vertical;
-}
+} */
 
 fieldset {
   min-width: 0;
@@ -2406,6 +2406,7 @@ select.form-control[multiple] {
 }
 
 textarea.form-control {
+  /* border: red solid 1px; */
   height: auto;
 }
 
@@ -2519,11 +2520,11 @@ textarea.form-control {
   display: block;
 }
 
-.was-validated textarea.form-control:valid,
+/* .was-validated textarea.form-control:valid,
 textarea.form-control.is-valid {
   padding-right: calc(1.5em + 0.75rem);
   background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
-}
+} */
 
 .was-validated .custom-select:valid,
 .custom-select.is-valid {
@@ -2665,11 +2666,11 @@ textarea.form-control.is-valid {
   display: block;
 }
 
-.was-validated textarea.form-control:invalid,
+/* .was-validated textarea.form-control:invalid,
 textarea.form-control.is-invalid {
   padding-right: calc(1.5em + 0.75rem);
   background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
-}
+} */
 
 .was-validated .custom-select:invalid,
 .custom-select.is-invalid {
@@ -4176,10 +4177,10 @@ input[type="button"].btn-block {
   margin-top: 0;
 }
 
-.input-group-lg>.form-control:not(textarea),
+/* .input-group-lg>.form-control:not(textarea),
 .input-group-lg>.custom-select {
   height: calc(1.5em + 1rem + 2px);
-}
+} */
 
 .input-group-lg>.form-control,
 .input-group-lg>.custom-select,
@@ -4193,10 +4194,10 @@ input[type="button"].btn-block {
   border-radius: 0.3rem;
 }
 
-.input-group-sm>.form-control:not(textarea),
+/* .input-group-sm>.form-control:not(textarea),
 .input-group-sm>.custom-select {
   height: calc(1.5em + 0.5rem + 2px);
-}
+} */
 
 .input-group-sm>.form-control,
 .input-group-sm>.custom-select,
@@ -7469,6 +7470,8 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+/* -------------------------- */
+
 .bg-primary {
   background-color: #007bff !important;
 }
@@ -7565,6 +7568,8 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+/* -------------------------- */
+
 .border {
   border: 1px solid #dee2e6 !important;
 }
@@ -7585,9 +7590,20 @@ button.bg-dark:focus {
   border-left: 1px solid #dee2e6 !important;
 }
 
+/* -------------------------- */
 .border-0 {
   border: 0 !important;
 }
+
+.border-1 {
+  border: 1px solid #DEE2E6 !important;
+}
+
+.border-2 {
+  border: 2px solid #DEE2E6 !important;
+}
+
+/* -------------------------- */
 
 .border-top-0 {
   border-top: 0 !important;
@@ -7604,6 +7620,8 @@ button.bg-dark:focus {
 .border-left-0 {
   border-left: 0 !important;
 }
+
+/* -------------------------- */
 
 .border-primary {
   border-color: #007bff !important;
@@ -11800,7 +11818,8 @@ h5,
 #sidebar {
   min-width: 270px;
   max-width: 270px;
-  /* background: #3445b4; */ /* Deafult */
+  /* background: #3445b4; */
+  /* Deafult */
   background: #1E488F;
   /* background: #548FE8; */
   color: #fff;
@@ -11950,7 +11969,8 @@ h5,
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #1E488F; /* color btn collapse */
+  background: #1E488F;
+  /* color btn collapse */
   border-radius: 10px;
 }
 
@@ -12004,6 +12024,8 @@ a[data-toggle="collapse"] {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* ------------------ */
+
 .form-control {
   height: 40px !important;
   background: #fff;
@@ -12040,14 +12062,18 @@ a[data-toggle="collapse"] {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* ------------------ */
+
 .subscribe-form .form-control {
   background: #3b4ec6;
 }
 
 /*Ajuste de tamaño de de imagens de comoce a tu equipo*/
 .team-member img {
-  width: 200px; /* Ajusta el tamaño según tus preferencias */
+  width: 200px;
+  /* Ajusta el tamaño según tus preferencias */
 }
+
 .contact-section {
   display: flex;
   justify-content: space-between;
@@ -12055,18 +12081,23 @@ a[data-toggle="collapse"] {
 }
 
 .bibliografia-section {
-  flex: 1; /* Abarcar todo el espacio restante */
+  flex: 1;
+  /* Abarcar todo el espacio restante */
 
   padding: 20px;
-  border: 1px solid #ced4da; /* Borde */
+  border: 1px solid #ced4da;
+  /* Borde */
   border-radius: 5px;
-  margin-right: 10px; /* Espacio entre las secciones */
+  margin-right: 10px;
+  /* Espacio entre las secciones */
 }
 
 .descarga-button {
-  background-color: #f8f9fa; /* Color de fondo */
+  background-color: #f8f9fa;
+  /* Color de fondo */
   padding: 20px;
-  border: 1px solid #ced4da; /* Borde */
+  border: 1px solid #ced4da;
+  /* Borde */
   border-radius: 5px;
 }
 
