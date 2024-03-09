@@ -7659,6 +7659,14 @@ button.bg-dark:focus {
   border-color: #fff !important;
 }
 
+/* ------------------------- */
+
+.opacity-20 {
+  opacity: 20%;
+}
+
+/* ------------------------- */
+
 .rounded-sm {
   border-radius: 0.2rem !important;
 }
@@ -7702,6 +7710,8 @@ button.bg-dark:focus {
 .rounded-0 {
   border-radius: 0 !important;
 }
+
+/* ----------------------- */
 
 .clearfix::after {
   display: block;
@@ -12027,7 +12037,7 @@ a[data-toggle="collapse"] {
 /* ------------------ */
 
 .form-control {
-  height: 40px !important;
+  /* height: 40px !important; */
   background: #fff;
   color: #000;
   font-size: 13px;
