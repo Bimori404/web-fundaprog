@@ -76,6 +76,11 @@ body {
   background-color: #fff;
 }
 
+.fuenteSecciones {
+  font-family: 'Candara', sans-serif; 
+}
+
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -85,6 +90,13 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+.book-image {
+  float: left;
+  margin-right: 10px;
+  width: 64px; 
+  height: 84px;
 }
 
 h1,
